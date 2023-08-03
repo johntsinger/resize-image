@@ -34,6 +34,6 @@ If you don't have Python 3, please visit : https://www.python.org/downloads/ to 
 
 -  -p --path : the path to the file
 -  -np --newpath : the new path to the file (optional, same path as the original image path if omitted)
--  -w --width : the desired image width
--  -h --height : the desired image height
+-  -w --width : the desired image width (can be omitted if height is set, in this case calcultate the ratio based on height)
+-  -h --height : the desired image height (can be omitted if width is set, in this case calcultate the ratio based on width)
 -  -v --verbosity : increase output verbosity
